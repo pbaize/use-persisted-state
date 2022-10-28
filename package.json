@@ -16,6 +16,7 @@
   },
   "scripts": {
     "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
     "lint": "eslint src",
     "test": "jest --verbose --coverage --silent",
     "test:watch": "jest --watch --runInBand --silent",
